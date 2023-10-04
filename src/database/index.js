@@ -13,7 +13,9 @@ class Database {
     this.mongo()
   }
   init() {
-    this.connection = new Sequelize(configDatabase)
+    this.connection = new Sequelize(
+      "postgresql://postgres:mZHPBSDvuDUwA49p7QO4@containers-us-west-69.railway.app:7074/railway",
+    )
     models
       .map((model) => model.init(this.connection))
       .map(
@@ -23,7 +25,7 @@ class Database {
 
   mongo() {
     this.mongoConnection = mongoose.connect(
-      "mongodb://localhost:27017/codeburguer",
+      "mongodb://mongo:NbRKgK5UkmlzFHlD23Fp@containers-us-west-53.railway.app:5601",
       {
         useNewUrlParser: true,
       },
