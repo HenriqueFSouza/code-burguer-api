@@ -11,7 +11,7 @@ class Products extends Model {
         url: {
           type: Sequelize.VIRTUAL,
           get() {
-            return `http://localhost:3001/product-file/${this.path}`
+            return `https://code-burguer-api-production.up.railway.app/product-file/${this.path}`
           },
         },
       },

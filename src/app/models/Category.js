@@ -3,13 +3,13 @@ import Sequelize, { Model } from "sequelize"
 class Category extends Model {
   static init(sequelize) {
     super.init(
-      { 
+      {
         name: Sequelize.STRING,
         path: Sequelize.STRING,
         url: {
           type: Sequelize.VIRTUAL,
           get() {
-            return `http:localhost:3001/category-file/${this.path}`
+            return `https://code-burguer-api-production.up.railway.app/category-file/${this.path}`
           },
         },
       },
