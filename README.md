@@ -19,6 +19,7 @@ This API was created to allow users to create accounts in a Hamburguer´s Shop a
 - [Express](https://expressjs.com/)
 - [JavaScript](https://www.javascript.com/)
 - [Axios](https://axios-http.com/)
+- [Yup](https://www.npmjs.com/package/yup)
 - [Bcrypt](https://www.npmjs.com/package/bcrypt)
 - [Docker](https://www.docker.com/)
 - [Mongodb](https://www.mongodb.com/)
