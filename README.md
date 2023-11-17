@@ -6,7 +6,7 @@ This API was developed for the <a href='https://code-burguer-interface-henna.ver
 
 This API was created to allow users to create accounts in a Hamburguer´s Shop application. The Admin user can create new products, edit products, create categories, and set product offers
 
-## Main features
+## ✨ Main features
 
 - Create new accounts as users;
 - Login as user or admin;
