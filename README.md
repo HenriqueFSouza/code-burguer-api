@@ -1,4 +1,4 @@
-<h1 align="center"> Code Burguer API </h1>
+<h1 align="left"> Code Burguer API </h1>
 
 This API was developed for the <a href='https://code-burguer-interface-henna.vercel.app'>Code Burguer Interface</a>
 
@@ -35,7 +35,7 @@ Thanks to the following people who contributed to this project:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/93978780?v=4" width="160px;" alt="Photo by Henrique Francisco on GitHub"/><br>
         <sub>
-          <b>Pedro Silva</b>
+          <b>Henrique Francisco</b>
         </sub>
       </a>
     </all>
